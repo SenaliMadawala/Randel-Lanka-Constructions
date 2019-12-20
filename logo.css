@@ -1,0 +1,40 @@
+#mylogo{
+width:150;
+height:110;
+margin-left: 20;
+margin-top: 30;
+}
+
+header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    line-height: 50px;
+   /* background-color: #eee; */
+}
+
+#navi{
+margin-left: 650;
+margin-top: 30;
+text-decoration: none;
+/*color: black;*/
+
+}
+
+header *{
+    display: inline;
+    height: 50px;
+
+}
+
+header ul {
+    padding: 0;
+
+}
+
+header li {
+    margin-left: 20px;
+}
+
