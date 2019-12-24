@@ -29,7 +29,7 @@ footer{
     transform: translate(-53%, -50%);
 }
 
-li{
+.media li{
     list-style: none;
     margin: 15px 40px;
     display: inline-block;
@@ -42,7 +42,7 @@ li{
     overflow: hidden;
 }
 
-li:hover{
+.media li:hover{
     color: #292929;
     border: 1px solid #292929;
     transition: .5s;

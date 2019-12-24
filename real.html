@@ -1,9 +1,48 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="description" content="your Description">
+        <meta name="author" content="Randel-Lanka-Constructions">
+        <meta name="viewport" contents="width=device-width,initial=scale=1.0">
+
         <title>Randel-Lanka-Constructions</title>
-        <link rel="stylesheet" type="text/css" href="reals.css">
+
+       
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Amaranth|Permanent+Marker|Sorts+Mill+Goudy&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="nav.css">
+        <link rel="stylesheet" type="text/css" href="section.css">
+        <link rel="stylesheet" type="text/css" href="icone.css">
+
+        <link rel="stylesheet" type="text/css" href="file:///C:/Users/ASUS/Pictures/fontawesome-free-5.12.0-web/css/all.css">
+        
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+   
     </head>
     <body>
         <header>
@@ -32,6 +71,9 @@
                         <li>
                             <a href="#contact">Contact</a>
                         </li>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                          </a>
                     </ul>
                     <div class="drop">
                         <div class="layer1"></div>
@@ -41,8 +83,168 @@
                     </div>
                 
                 </nav>
+
+                <script src="nav.js"></script>
             
         </header>
+
+        <section id="home1" class="section-inner">
+            <div>
+                <h2>How Can WE Help?</h2>
+
+            </div>
+
+
+        </section>
+
+        <section>
+            <div class="container-contact100">
+                <div class="contact100-map" id="google_map" data-map-x="40.722047" data-map-y="-73.986422" data-pin="images/icons/map-marker.png" data-scrollwhell="0" data-draggable="1"></div>
+        
+                <div class="wrap-contact100">
+                    <div class="contact100-form-title" style="background-image: url(images/bg-01.jpg);">
+                        <span class="contact100-form-title-1">
+                            Contact Us
+                        </span>
+        
+                        <span class="contact100-form-title-2">
+                            Feel free to drop us a line below! <br>
+                            Please feel free to call us to discuss your upcoming project! 
+                        </span>
+                    </div>
+        
+                    <form class="contact100-form validate-form">
+                        <div class="wrap-input100 validate-input" data-validate="Name is required">
+                            <span class="label-input100">Full Name:</span>
+                            <input class="input100" type="text" name="name" placeholder="Enter full name">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+                            <span class="label-input100">Email:</span>
+                            <input class="input100" type="text" name="email" placeholder="Enter email addess">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate="Phone is required">
+                            <span class="label-input100">Phone:</span>
+                            <input class="input100" type="text" name="phone" placeholder="Enter phone number">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate = "Message is required">
+                            <span class="label-input100">Message:</span>
+                            <textarea class="input100" name="message" placeholder="Your Comment..."></textarea>
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="container-contact100-form-btn">
+                            <button class="contact100-form-btn">
+                                <span>
+                                    Submit
+                                    <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>
+        
+        
+        
+            <div id="dropDownSelect1"></div>
+        
+        <!--===============================================================================================-->
+            <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+        <!--===============================================================================================-->
+            <script src="vendor/animsition/js/animsition.min.js"></script>
+        <!--===============================================================================================-->
+            <script src="vendor/bootstrap/js/popper.js"></script>
+            <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+        <!--===============================================================================================-->
+            <script src="vendor/select2/select2.min.js"></script>
+        <!--===============================================================================================-->
+            <script src="vendor/daterangepicker/moment.min.js"></script>
+            <script src="vendor/daterangepicker/daterangepicker.js"></script>
+        <!--===============================================================================================-->
+            <script src="vendor/countdowntime/countdowntime.js"></script>
+        <!--===============================================================================================-->
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKFWBqlKAGCeS1rMVoaNlwyayu0e0YRes"></script>
+            <script src="js/map-custom.js"></script>
+        <!--===============================================================================================-->
+            <script src="js/main.js"></script>
+        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+            <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+        
+              gtag('config', 'UA-23581568-13');
+            </script>
+        
+
+        </section>
+
+        <section id="home2">
+
+            <div>
+                <ul>
+                    <br><br>
+                
+                <li class="icon"> <img src="https://img.icons8.com/nolan/64/000000/user-location.png"> 
+                <h4><b></b>Find Us At The office</b></h4>
+                            <p>Perelanda Rd, <br>
+                               Ragama,<br>
+                               SriLanka
+                </li>
+                <li class="icon">
+                <img src="https://img.icons8.com/nolan/64/000000/missed-call.png">
+                <h4><b></i>Give Us a Ring</b></h4>
+                            <p>Senali Madawala<br>
+                               T.P - 0112400156<br>
+                               Mobile - 0715485156
+                            </p>
+                </li>
+                <li class="icon">
+                <img src="https://img.icons8.com/nolan/64/000000/system-information.png">
+                <h4><b>Legal Information</b></h4>
+                            <p>Creative Tim Ltd.<br>
+                                VAT · EN2341241<br>
+                                IBAN · EN8732ENGB2300099123<br>
+                                Bank · Great Britain Bank </p>
+                </li>
+                
+                </ul>
+                </div>
+
+        </section>
+
+        <footer>
+            <br><br><br>
+
+            <div class="media">
+                <ul>
+                    <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></a></i></li>
+                    <li><i class="fab fa-instagram"><a href="https://www.instagram.com/?hl=en"></a></i></li>
+                    <li><i class="fab fa-twitter"><a href="https://twitter.com/"></a></i></li>
+                    <li><i class="fab fa-google-plus-g"><a href="https://aboutme.google.com/u/0/?referer=gplus"></a></i></li>
+                
+                </ul>
+
+            </div>
+
+<br><br><br><br><br>
+
+
+           <h5>©2020 Randel-Lanka-Constructions, Inc. All Rights Reserved</h5>
+
+        <!--  <a href="https://icons8.com/icon/52492/user-location">User Location icon by Icons8</a>
+        --> 
+        </footer>
+
       
     </body>
 </html>
