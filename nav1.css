@@ -1,0 +1,72 @@
+
+*{
+    box-sizing: border-box;
+    margin:0 ;
+    padding: 0;
+    
+}
+
+#real {
+    font-weight: 500px;
+    font-size: 45px;
+    columns: #5d4955;;
+    text-decoration: none;
+    background-color: #5d4955;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 3px;
+    
+}
+
+.container{
+    color: darkgray;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+#mylogo {
+    content: poniter;
+    width: 170px;
+    height: 110px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 50px;
+    font-weight: 50px;
+    margin-top: 35px;
+    margin-right: 25px;
+    margin-left: 900px;
+    
+    
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+    
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+    font-weight: bold;
+    font-size: 15px;
+    color: bisque;
+    text-decoration: none;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Amaranth', sans-serif;
+
+}
+
+.nav-links li a:hover {
+    color: #DAA520;
+}
