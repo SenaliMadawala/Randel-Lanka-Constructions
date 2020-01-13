@@ -155,7 +155,7 @@ nav img{
     }
     
     #r1:checked ~ .s1{
-        margin-left: -20%;
+        margin-left: 20%;
     } 
     
     #r2:checked ~ .s1{
