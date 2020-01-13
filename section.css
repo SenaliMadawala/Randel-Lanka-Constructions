@@ -1,6 +1,6 @@
 .section-inner{
     height: 100vh;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,7 +76,7 @@
   footer{
     background-size:cover;
     background-position: center;
-    width: 1920px;
+    /*width: 1920px;*/
     height: 250px;
 
 
