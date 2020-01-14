@@ -28,7 +28,7 @@
     font-size: 3em;
     color:#fff;
     text-align: center;
-    margin-top:1vh;
+    margin-top:-1vh;
     font-weight: normal;
     width:500px; 
     height: 110px;
@@ -50,9 +50,9 @@
 
   #home2 h4{
     font-size: 25px;
-    font-family: 'Permanent Marker', cursive;
+   /* font-family: 'Permanent Marker', cursive;
     font-family: 'Amaranth', sans-serif;
-    font-family: 'Sorts Mill Goudy', serif;
+    font-family: 'Sorts Mill Goudy', serif;*/
     letter-spacing: 5px;
     text-align: center;
     color: #191970;
@@ -62,9 +62,9 @@
 
   #home2 p{
     font-size: 20px;
-    font-family: 'Permanent Marker', cursive;
+    /*font-family: 'Permanent Marker', cursive;
     font-family: 'Amaranth', sans-serif;
-    font-family: 'Sorts Mill Goudy', serif;
+    font-family: 'Sorts Mill Goudy', serif;*/
     letter-spacing: 2px;
     text-align: center;
     color: #191970;
