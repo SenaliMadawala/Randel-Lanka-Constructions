@@ -14,8 +14,8 @@
 
 
 #home1{
-    /*background-image:linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)),url("geometra.jpg");*/
-    background-image:linear-gradient url("geometra.jpg");
+    background-image:linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)),url("geometra.jpg");
+    /*background-image:linear-gradient url("geometra.jpg");*/
     background-size:cover;
     background-position: center;
     /*width: 1920px;*/
