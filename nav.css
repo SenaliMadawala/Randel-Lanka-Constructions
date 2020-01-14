@@ -95,9 +95,9 @@ nav img{
   }
 
   footer{
-    font-family: 'Permanent Marker', cursive;
+    /*font-family: 'Permanent Marker', cursive;
     font-family: 'Amaranth', sans-serif;
-    font-family: 'Sorts Mill Goudy', serif;
+    font-family: 'Sorts Mill Goudy', serif;*/
     background: #282828;
     background: linear-gradient(-45deg, #A52A2A, #CD853F, #23a6d5, #A0522D) ;
     background-size: 400% 400%;
