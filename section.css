@@ -14,7 +14,8 @@
 
 
 #home1{
-    background-image:linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)),url("geometra.jpg");
+    /*background-image:linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)),url("geometra.jpg");*/
+    background-image:linear-gradient url("geometra.jpg");
     background-size:cover;
     background-position: center;
     /*width: 1920px;*/
@@ -22,18 +23,25 @@
 }
 
 #home1 h2{
-    font-size: 50px;
-    font-family: 'Permanent Marker', cursive;
+    
     letter-spacing: 10px;
+    font-size: 3em;
+    color:#fff;
     text-align: center;
+    margin-top:5vh;
+    font-weight: normal;
+    width:500px; 
+    height: 70px;
+    background-color: #000000;
+    opacity: .45;
 }
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------
   -------------------------------------------------------------------------------------------------------------------------------------------------- */
 
   #home2{
-      background-image:linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)),url("hometwo.jpg");
-      background-size:cover;
+    background-image:linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)),url("hometwo.jpg");
+    background-size:cover;
     background-position: center;
     width: 1920px;
     height: 805px;
