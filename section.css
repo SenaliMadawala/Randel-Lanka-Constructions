@@ -24,11 +24,11 @@
 
 #home1 h2{
     
-    letter-spacing: 10px;
+    /*letter-spacing: 10px;*/
     font-size: 3em;
     color:#fff;
     text-align: center;
-    margin-top:-1vh;
+    margin-top:-5vh;
     font-weight: normal;
     width:500px; 
     height: 110px;
