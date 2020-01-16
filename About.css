@@ -78,6 +78,9 @@ h1{
         opacity: .45;
 
 }
+#project3{
+        height: 100vh;
+}
 #project3 .section-inner h2{
     /*position: absolute;*/
     margin-top:230px;
