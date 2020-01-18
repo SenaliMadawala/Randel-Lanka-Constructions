@@ -1,0 +1,144 @@
+<html>
+<head>
+    <title>Application</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <link href="https://fonts.googleapis.com/css?family=Kulim+Park&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <h1>Apply</h1>
+        <form action="form.php" method="POST">
+            
+                    <label class="label" >First name *:</label>
+                    <div class="">
+                        <input type="text"  name="fname" placeholder="" required="">
+                    </div>
+                <br><br>
+
+                    <label class="label" >Last name *:</label>
+                    <div class="">
+                        <input type="text" name="lname" placeholder="" required="">
+                    </div>
+                    <br><br>
+            
+
+                    <label class="label-simple">Email *:</label>
+                    <div class="">
+                        <input type="text" name="email" placeholder="" required="">
+                    </div>
+                    <br><br>
+                
+
+              
+                    <label class="label-simple ">Phone Number:</label>
+                    <div class="">
+                        <input type="text" name="pnum" placeholder="" required=>
+                    </div>
+                    <br><br>
+
+                
+                    <label class="label-simple ">Education level:</label>
+                    <div class="">
+                        <select >
+                         <option value="" name="Education" selected="selected">Please Select Education Level</option>
+                         <option label="Secondary school (O Levels, GCSE)" value="object:13">Secondary school (O Levels, GCSE)</option>
+                         <option label="Upper secondary school (A levels, Baccalaureate/ NVQ)" value="object:14">Upper secondary school (A levels, Baccalaureate/ NVQ)</option>
+                         <option label="Diploma (HND, NDT, NTS)" value="object:15">Diploma (HND, NDT, NTS)</option>
+                         <option label="Degree (BSc, MBBS, BA, LLB)" value="object:16">Degree (BSc, MBBS, BA, LLB)</option>
+                         <option label="Post graduate (MA, MSc, LLM)" value="object:17">Post graduate (MA, MSc, LLM)</option>
+                         <option label="Doctoral (PhD, D. Phil)" value="object:18">Doctoral (PhD, D. Phil)</option></select>
+                    </div>
+                    <br><br>
+                
+                    <label>Career level:</label>
+                    <div class="">
+                        <select>
+                            <option value="" name="career" selected="selected">Please Select Career Level</option>
+                            <option label="Entry Level" value="object:21">Entry Level</option>
+                            <option label="Professional" value="object:22">Professional</option>
+                            <option label="Manager" value="object:23">Manager</option>
+                            <option label="Senior Manager" value="object:24">Senior Manager</option>
+                            <option label="Director" value="object:25">Director</option>
+                        </select>
+                    </div>
+                    <br><br>
+
+                
+                    <label class="label-simple ">Job title (desired or current/recent):</label>
+                    <div class="">
+                        <input type="text" name="job" placeholder="">
+                    </div>
+                    <br><br>
+
+                    <label class="label-simple ">Salary (desired or current/recent) in Rs.:</label>
+                    <div class="">
+                        <input id="salary" name="salary" placeholder="">
+                    
+                </div>
+                <br><br>
+                
+                    <label class="label-simple ng-scope" for="" translate="">Years of relevant experience:</label>
+                    <div class="">
+                        <select>
+                            <option value="" name="exp" selected="selected">- Please Choose -</option>
+                            <option label="0-2 Years" value="object:73">0-2 Years</option>
+                            <option label="3-5 Years" value="object:74">3-5 Years</option>
+                            <option label="6-10 Years" value="object:75">6-10 Years</option>
+                            <option label="More Than 10 Years" value="object:76">More Than 10 Years</option>
+                        </select>
+                    </div>
+                    <br><br>
+                
+                    <label class="label-simple ">Availability / Notice period:</label>
+                    <div class="">
+                        <select>
+                            <option value="" name="ava" selected="selected">- Please Choose -</option>
+                            <option label="Immediately" value="object:85">Immediately</option>
+                            <option label="1 Week or less" value="object:86">1 Week or less</option>
+                            <option label="2 Weeks or less" value="object:87">2 Weeks or less</option>
+                            <option label="1 Month" value="object:88">1 Month</option>
+                            <option label="1 - 2 Months" value="object:89">1 - 2 Months</option>
+                            <option label="More than 2 months" value="object:90">More than 2 months</option>
+                        </select>
+                    </div>
+                    <br><br>
+            </section>
+
+            
+                <label>Current CV:</label>
+                <div class="">
+                    <input type="text" name="cv" id="cv">
+                </div>
+          
+                <br><br>
+            
+                <input type="file" name="file" id="file">
+                <div class="applyMessageStyle"></div>
+                <br><br>
+           
+                <label>Explain briefly why you are a good candidate for this role:</label>
+                <div class="">
+                    <textarea rows="10" cols="39"name="role"></textarea>
+                </div>
+            
+                <br>
+            
+                <div style="max-width: 1200px;margin: 0 auto;padding-bottom: 20px;"></div>
+                    <p>
+                        You should never provide bank or financial information, or make any form of payment, when applying for 
+                        a job.
+                        If you are ever asked to do this by a recruiter on our site, please contact us immediately.
+                        Please add this at the point of applying for a job
+                    </p>
+                    <p>Thanks</p>
+                </div>
+                <br><br>
+                <div class="sub">
+                
+                    <button type="submit">Submit your application</button>
+                </div>
+                <br><br>
+                <p>By submitting you agree to the terms &amp; conditions of</p>
+                <br><br>
+        </form>
+    </body>
+    </html>
