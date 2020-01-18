@@ -14,87 +14,24 @@
 
 
 #home1{
-    /*background-image:linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)),url("geometra.jpg");*/
-    background-image:url("geometra.jpg");
-    background-size:cover;
+   /* background-image:linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)),url("geometra.jpg");*/
+   background-image: url("geometra.jpg"); 
+   background-size:cover;
     background-position: center;
-    /*width: 1920px;*/
-    height: 800px;
+    /*width: 1400px;*/
+    height: 100vh;
+
 }
 
-#home1 h2{
-    
-    /*letter-spacing: 10px;*/
-    font-size: 3em;
-    color:#fff;
+#home1 h2{    
+    font-family: 'Kulim Park', sans-serif;
+    font-size: 50px;
+    color:rgb(255, 255, 255);
     text-align: center;
-    margin-top:-10vh;
+    margin-top: 5vh;
     font-weight: normal;
-    width:500px; 
+    width:600px; 
     height: 70px;
     background-color: #000000;
     opacity: .45;
 }
-
-/* ----------------------------------------------------------------------------------------------------------------------------------------------
-  -------------------------------------------------------------------------------------------------------------------------------------------------- */
-
-  #home2{
-    background-image:linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)),url("hometwo.jpg");
-    background-size:cover;
-    background-position: center;
-    width: 1920px;
-    height: 600px;
-
-  }
-
-  #home2 h4{
-    font-size: 25px;
-   /* font-family: 'Permanent Marker', cursive;
-    font-family: 'Amaranth', sans-serif;
-    font-family: 'Sorts Mill Goudy', serif;*/
-    letter-spacing: 5px;
-    text-align: center;
-    color: #191970;
-    font-weight: 100;
-    
-  }
-
-  #home2 p{
-    font-size: 20px;
-    /*font-family: 'Permanent Marker', cursive;
-    font-family: 'Amaranth', sans-serif;
-    font-family: 'Sorts Mill Goudy', serif;*/
-    letter-spacing: 2px;
-    text-align: center;
-    color: #191970;
-  }
-
-  .icon{
-      display: inline;
-      text-align: center;
-      margin-left: 700px;
-      
-  }
-
-
-  /*============================================================================================================================
-  ===============================================================================================================*/
-
-  footer{
-    background-size:cover;
-    background-position: center;
-    /*width: 1920px;*/
-    height: 200px;
-    
-}
-
-
-  h5{
-    font-size: 15px;
-    font-family: 'Permanent Marker', cursive;
-    font-family: 'Amaranth', sans-serif;
-    font-family: 'Sorts Mill Goudy', serif;
-    letter-spacing: 2px;
-    text-align: center;
-  }
