@@ -148,7 +148,7 @@
                         <div class="applyMessageStyle"></div>
                         <br><br>
 
-                        <label>Explain briefly why you are a good candidate for this role:</label>
+                        <!-- <label>Explain briefly why you are a good candidate for this role:</label>
                         <div class="">
                             <textarea rows="10" cols="39"name="role"></textarea>
                         </div>
@@ -160,14 +160,14 @@
                             You should never provide bank or financial information, or make any form of payment, when applying for 
                             a job.
                         </p>
-                        <p>Thanks</p>
-                        <br><br>
+                        <p>Thanks</p!-->
+                        <br>
                         <div class="sub">
                             <button type="submit">Submit your application</button>
                         </div>
-                        <br><br>
+                        <!-- <br><br>
                         <p>By submitting you agree to the terms &amp; conditions of</p>
-                        <br><br>
+                        <br><br> -->
                     </form>
                 </div>
             </section>
